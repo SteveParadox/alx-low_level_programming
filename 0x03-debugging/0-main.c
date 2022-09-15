@@ -3,7 +3,7 @@
 /**
  * main - Test functions for positive_Or_negative
  *
- * Return: 0 if Success
+ * Return: 0
  */
 int main(void)
 {
