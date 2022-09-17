@@ -23,15 +23,15 @@ void print_triangle(int size)
 				}
 				else
 				{
-					putchar('#');
+					_putchar('#');
 				}
-				n--;
-				_putchar('\n');
 			}
+			n--;
+			_putchar('\n');
 		}
+	}
 	else
 	{
 		_putchar('\n');
-	}
 	}
 }
