@@ -3,7 +3,7 @@
 #include <string.h>
 /**
  * rev_string - print revversed string, followed by a newline
- * @is: parameter
+ * @s: parameter
  * Return: void
  */
 
