@@ -12,7 +12,7 @@ int mapint(char a)
 	{
 		return ((int)a - 48);
 	}
-	retutn (0);
+	return (0);
 }
 
 int isDigit(char i)
