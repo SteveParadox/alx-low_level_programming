@@ -26,10 +26,10 @@ void puts_half(char *str)
 	}
 	else
 	{
-		for (v = (i - 1) / 2; v < i -1; v++)
+		for (v = (i - 1) / 2; v < i - 1; v++)
 		{
 			_putchar(str[v + 1]);
 		}
 	}
-	_putchat('\n');
+	_putchar('\n');
 }
