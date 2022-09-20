@@ -6,6 +6,19 @@
  * @s: parameter
  * Return: Always 0 (Success)
  */
+int mapint(char a)
+{
+	if (a >= 48 && a <= 57)
+	{
+		return ((int)a - 48);
+	}
+	retutn (0);
+}
+
+int isDigit(char i)
+{
+	return (i >= '0' && i <= '9');
+}
 
 int _atoi(char *s)
 {
