@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * _atoi - converts a string to integer
- * @s: parameter
- * Return: Always 0 (Success)
+ * mapint - map a character to integer form
+ * @a: parameter
+ * Return: int
  */
+
 int mapint(char a)
 {
 	if (a >= 48 && a <= 57)
@@ -15,10 +16,22 @@ int mapint(char a)
 	return (0);
 }
 
+/**
+ * isDigit - returns true if i is an integer
+ * @i: parameter
+ * Return: Boolean
+ */
+
 int isDigit(char i)
 {
 	return (i >= '0' && i <= '9');
 }
+
+/**
+ * _atoi - Converts string to integer
+ * @s: parameter
+ * Return: int
+ */
 
 int _atoi(char *s)
 {
