@@ -4,7 +4,6 @@
  * _strcat - Code to concatenate two strings
  * @dest: Parameter
  * @src: Parameter
- *
  * Return: 0 (Success)
  */
 
