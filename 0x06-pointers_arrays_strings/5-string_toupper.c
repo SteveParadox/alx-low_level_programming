@@ -4,7 +4,6 @@
  * @string: parameter
  * Return: capitalized string
  */
-
 char *string_toupper(char *str)
 {
 	int i;
