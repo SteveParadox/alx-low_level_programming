@@ -5,7 +5,7 @@
  * @n: parameter
  * Return: void
  */
-void print_Number(int n)
+void print_number(int n)
 {
 	unsigned int x = n;
 
