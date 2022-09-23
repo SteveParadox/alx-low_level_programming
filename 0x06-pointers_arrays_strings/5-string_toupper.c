@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * *sring_toupper - capitalize a string
  * @string: parameter
