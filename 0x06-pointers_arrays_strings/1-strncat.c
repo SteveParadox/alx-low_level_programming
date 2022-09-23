@@ -4,6 +4,7 @@
  * @dest: parameter
  * @src: parameter
  * @n: parameter
+ *
  * Return: void
  */
 char *_strncat(char *dest, char *src, int n)
