@@ -1,24 +1,23 @@
 #include "main.h"
-
 /**
- *print_alphabet_x10 - prints lowercase letters 10 times
+ * print_alphabet - prints all lowercase alphabets
  *
- *Return: Always 0 (success)
+ * Return: Always 0.
  */
 
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
-	int i = 1, j;
+	int i;
 
-	while (i <= 10)
+	/*
+	 * initialize i = 97 which is the decimal equivalent of a and run while
+	 * i <= 122 which is the decimal equivalent of z and increment by 1
+	 */
+	for (i = 97 ; i < 123 ; i++)
 	{
-		j = 97;
-		while (j <= 122)
-		{
-			_putchar(j);
-			j++;
-		}
-		i++;
-		_putchar('\n');
+		/*display the character value of i*/
+		_putchar(i);
 	}
+	/*display new line*/
+	_putchar('\n');
 }
